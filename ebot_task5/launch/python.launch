@@ -1,0 +1,5 @@
+<launch>
+	<!-- <include file="$(find ebot_nav)/launch/nav.launch"/> -->
+	<node pkg="ebot_task5" type="SB#666_task5_arm.py" name="go_arm" output="screen"/>
+	<node pkg="ebot_task5" type="SB#666_task5_base.py" name="go_base" output="screen"/>
+</launch>

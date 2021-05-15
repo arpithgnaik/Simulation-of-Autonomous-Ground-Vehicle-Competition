@@ -1,0 +1,3 @@
+<launch>
+	<rosparam command="load" file="$(find ebot_task5)config/sensors_3d.yaml" />
+</launch>
